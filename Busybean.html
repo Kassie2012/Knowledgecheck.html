@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean Order Form</title>
+</head>
+
+<body>
+    <img src="google forms banner.jpg" alt="order form" width= "800" height= "200" style="border-radius: 5px; border: 2px solid #000;">
+
+    <form action="#" method="POST">
+      <section id="home"> <!-- Home section with a welcome message -->
+        <h1>Welcome to Our Coffee Shop!</h1>
+        <p>We are excited to offer you a variety of coffee products. Please fill out the order form below.</p>
+      </section>
+      
+      <section id="products-offered"> <!-- Products offered section -->
+        <fieldset>
+            <legend>Products Offered:</legend>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+                <tr>
+                    <td>Espresso Yourself:</td>
+                    <td>10.99</td>
+                    <td>2 lbs</td>
+                </tr>
+                <tr>
+                    <td>Espresso Urself Slowy :Decaf:</td>
+                    <td>7.99</td>
+                    <td>2 lbs</td>
+                </tr>
+    
+                <tr>
+                    <td>Honey Drip Coffee:</td>
+                    <td>5.99</td>
+                    <td>2 lbs</td>
+                </tr>
+    
+                <tr>
+                    <td>The Buzz Brew:</td>
+                    <td>6.49</td>
+                    <td>2 lbs</td>
+                </tr>
+            
+            </table>
+        </fieldset>
+      
+      <section id="order-form"> <!-- Order form section -->
+        <fieldset>
+            <legend>Order Form</legend>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <br>
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <br>
+
+            <label for="phone">Coffee Bean Selection:</label>
+            <input type="text" id="selection" name="selection" required placeholder="Select your buzz">
+            
+          </fieldset>
+
+        <fieldset>
+            <legend>How did you find us?</legend></p> 
+            
+            <div>
+                  <input type="radio" id="Facebook" name="Find Us" value="Facebook">
+                  <label for="Facebook" style="margin-right: 20px;">Facebook</label>
+            
+                  <input type="radio" id="Google" name="Find Us" value="Google">
+                  <label for="Google">Google</label>
+                  
+                  <input type="radio" id="Tiktok" name="Find Us" value="Tiktok">
+                  <label for="Tiktok">Tiktok</label>
+
+                  <input type="radio" id="Instagram" name="Find Us" value="Instagram">
+                  <label for="Instagram">Instagram</label>
+            </div>
+        
+        </fieldset>
+
+        <section id="contact-us"> <!-- Contact Us section -->
+        <fieldset>
+            <legend>Contact Us:</legend>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required placeholder="Write your message"></textarea>
+        </fieldset>
+        <input type="submit" value="Send">
+      
+    </form>
+        </section id="about-us"> <!-- About Us section -->
+        <fieldset>
+            <legend>About Us:</legend>
+            <p>
+            We are a small coffee shop dedicated to providing the best coffee experience. 
+            We pride ourselves on air roasted coffee that really leaves a buzzzzz.
+            Our mission is to bring you the finest coffee beans roasted right here in our tiny hive. 
+            Buzz by and see us today!</p>
+        </fieldset>
+
+      <img src="https://placehold.co/300x200" alt="Thank you for buzzing by!" width="300" height="200">
+            <!-- Placeholder image, wasn't sure if i should replace with actual image URL -->
+      
+      
+    <nav> <!-- Navigation bar -->
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#Products offered">Products offered</a></li>
+          <li><a href="#Order Form">Order form</a></li>
+          <li><a href="#Contact Us"> Contact us</a></li>
+          <li><a href="#About Us">About us</a></li>
+        </ul>
+      </nav>
+      
+      </section> 
+    
+</body>
+</html>
